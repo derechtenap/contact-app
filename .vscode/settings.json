@@ -18,5 +18,6 @@
   ],
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "cSpell.language": "de, en",
-  "workbench.settings.openDefaultSettings": true
+  "workbench.settings.openDefaultSettings": true,
+  "cSpell.words": ["mantine"]
 }
