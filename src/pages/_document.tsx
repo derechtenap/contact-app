@@ -1,9 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { ColorSchemeScript } from "@mantine/core";
 
 const Document = () => {
   return (
-    <Html>
-      <Head />
+    <Html dir="ltr">
+      <Head>
+        <ColorSchemeScript defaultColorScheme="auto" />
+      </Head>
       <body>
         <Main />
         <NextScript />
