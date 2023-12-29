@@ -10,4 +10,3 @@ linux:
 mac:
   target: ["dir", "dmg", "zip"]
   icon: "resources/icon.icns"
-
