@@ -19,5 +19,6 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "cSpell.language": "de, en",
   "workbench.settings.openDefaultSettings": true,
-  "cSpell.words": ["mantine"]
+  // List of words that are considered correct and ignored by the cSpell plugin
+  "cSpell.words": ["esnext", "libsql", "mantine", "sqlite", "tabler"]
 }
