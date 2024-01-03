@@ -1,3 +1,4 @@
+import React from "react";
 import {
   ActionIcon,
   Avatar,
@@ -74,7 +75,7 @@ const RootNavbar = () => {
           type="search"
         />
         {navbarItems.map((item) => (
-          <>
+          <React.Fragment key={item.name}>
             {/* If item has children return nested nav link component  */}
             {item.children ? (
               <NavLink
@@ -103,7 +104,7 @@ const RootNavbar = () => {
                 childrenOffset={5}
               />
             )}
-          </>
+          </React.Fragment>
         ))}
       </Stack>
       <Flex align="center" gap="md">
