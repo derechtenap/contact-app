@@ -15,9 +15,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@libsql/client": "^0.4.0-pre.5",
     "@mantine/core": "^7.3.2",
     "@mantine/hooks": "^7.3.2",
     "@tabler/icons-react": "^2.44.0",
+    "drizzle-orm": "^0.29.3",
     "electron-serve": "^1.2.0",
     "next": "14.0.4",
     "react": "^18",
@@ -31,6 +33,7 @@
     "@typescript-eslint/parser": "^6.16.0",
     "autoprefixer": "^10.4.16",
     "concurrently": "^8.2.2",
+    "drizzle-kit": "^0.20.9",
     "electron": "^28.1.0",
     "electron-builder": "^24.9.1",
     "eslint": "^8",
