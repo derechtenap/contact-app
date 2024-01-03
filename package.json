@@ -12,7 +12,10 @@
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore .",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "drizzle-kit generate:sqlite",
+    "push": "drizzle-kit push:sqlite",
+    "studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@libsql/client": "^0.4.0-pre.5",
